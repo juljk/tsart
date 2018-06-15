@@ -8,6 +8,7 @@
     "mongoose": "^5.1.5",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-responsive": "^4.1.0",
     "react-scripts": "1.1.4",
     "underscore": "^1.9.1"
   },

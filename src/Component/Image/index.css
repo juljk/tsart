@@ -3,7 +3,6 @@
 }
 
 body {
-    background: black;
     margin: 0;
     padding: 0;
     font-family: Arial;           
@@ -12,27 +11,76 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 2px;        
+    /* padding: 0 2px;  */
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
-    max-width: 25%;
-    padding: 0 2px;
+    max-width: 25%;     
+    /* padding: 0 2px; */
+}
+
+.image {
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
 }
 
 .column img {
-    margin-top: 4px;
-    vertical-align: middle;
+    margin: 0px;
+    display: block;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
     width: 100%;
+    transition: transform ease-in-out 300ms;
 }
+
+/* .column img:hover {   
+    cursor: pointer; 
+    transform: scale(1.08);
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+    background-color: rgba(255, 255, 255, 0.5);
+
+
+} */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff4dff;
+    z-index: 1;    
+  }
+
+  .column .image:hover .overlay {
+    opacity: 0.2;    
+  }
+
+  .column .image:hover img {
+    cursor: pointer; 
+    transform: scale(1.08);
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
     .column {
         flex: 50%;
-        max-width: 50%;
+        max-width: 50%;           
     }
 }
 
@@ -40,6 +88,6 @@ body {
 @media (max-width: 600px) {
     .column {
         flex: 100%;
-        max-width: 100%;
+        max-width: 100%;        
     }
 }
