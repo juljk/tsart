@@ -13,9 +13,9 @@ const url = [
     "https://image.ibb.co/nfUHaJ/48.jpg",
     "https://image.ibb.co/dSRxaJ/47.jpg",
     "https://image.ibb.co/jjZiFJ/46.jpg",
-    "https://image.ibb.co/e7YM2y/45.png",
+    
     "https://image.ibb.co/cT18hy/44.jpg",
-    "https://image.ibb.co/nFDcaJ/43.png",
+    
     "https://image.ibb.co/joQC9d/42.jpg",
     "https://image.ibb.co/efYzpd/41.jpg",
     "https://image.ibb.co/eyb8hy/40.jpg",
@@ -52,7 +52,11 @@ const url = [
     "https://image.ibb.co/mrVvUd/12.jpg",
     "https://image.ibb.co/cFJh9d/11.jpg",
     "https://image.ibb.co/mGBPNy/10.jpg",
-    "https://image.ibb.co/btpdhy/1.jpg"                                                  
+    "https://image.ibb.co/btpdhy/1.jpg",
+    "https://image.ibb.co/nMfZvJ/55.jpg"                                                  
 ];
 
 export default url;
+
+// "https://image.ibb.co/e7YM2y/45.png",
+// "https://image.ibb.co/nFDcaJ/43.png",

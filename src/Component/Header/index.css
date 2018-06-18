@@ -1,0 +1,12 @@
+.imageHeader {
+    background-image: url(https://image.ibb.co/gqJr5J/v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.contentImageHeader {
+    padding: 140px;
+}
