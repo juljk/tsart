@@ -6,15 +6,17 @@ class Header extends Component {
         return (
             <div>
             <div className="header">               
-                <div className="name">Tania Semaniuk</div>  
-                <div className="gallery">GALLERY</div>            
+                {/* <div className="name">Tania Semaniuk</div>   */}
+                {/* <div className="gallery">GALLERY</div>             */}
+                <p className="name">Tania Semaniuk</p>
+                <p className="gallery">GALLERY</p>
                 <div className="navigation">
-                    <ul>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">In stok</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                    
+                        <a href="#">Portfolio</a>
+                        <a href="#">In stok</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    
                 </div>                
             </div>
                 <div className="imageHeader">

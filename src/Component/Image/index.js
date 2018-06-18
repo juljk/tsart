@@ -16,7 +16,7 @@ class Image extends Component {
             <MediaQuery  maxWidth={1000}>                
                 <div className="column">
                     { dataUrl800[0].map(x => {
-                        return <div className="image"><img src={x} alt={x} /><div className="overlay"></div></div>
+                        return <div className="image"><img src={x} alt={x} /></div>
                     }) }               
                 </div>      
                 <div className="column">
