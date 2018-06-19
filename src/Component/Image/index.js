@@ -12,11 +12,11 @@ class Image extends Component {
     render() {                
       return (
         <div className="row"> 
-        <MediaQuery minDeviceWidth={1224}>
-            <MediaQuery  maxWidth={1000}>                
+        {/* <MediaQuery minDeviceWidth={1224}> */}
+            {/* <MediaQuery  maxWidth={1000}>                
                 <div className="column">
                     { dataUrl800[0].map(x => {
-                        return <div className="image"><img src={x} alt={x} /></div>
+                        return <div className="image"><a href={x}><img src={x} alt={x} /></a></div>
                     }) }               
                 </div>      
                 <div className="column">
@@ -24,8 +24,17 @@ class Image extends Component {
                         return <div className="image"><img src={x} alt={x} /></div>
                     }) }
                 </div> 
-            </MediaQuery>
-            <MediaQuery minWidth={800}>
+            </MediaQuery> */}
+
+            {/* <MediaQuery  maxWidth={600}> 
+                <div className="column">
+                    { url.map(x => {
+                        return <div className="image"><a href={x}><img src={x} alt={x} /></a></div>
+                    }) }               
+                </div> 
+            </MediaQuery> */}
+
+            {/* <MediaQuery minWidth={600}> */}
             <div className="column">
                 { dataUrl[0].map(x => {
                     return <div className="image"><img src={x} alt={x} /></div>
@@ -46,8 +55,8 @@ class Image extends Component {
                     return <div className="image"><img src={x} alt={x} /></div>
                  }) }
             </div>   
-            </MediaQuery>
-        </MediaQuery>            
+            {/* </MediaQuery> */}
+        {/* </MediaQuery>             */}
         </div>
       );
     }

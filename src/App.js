@@ -3,7 +3,7 @@ import './App.css';
 import Image from './Component/Image';
 import Header from './Component/Header';
 
-// import Test from './Component/Test';
+// import ModalExampleControlled from './Component/Test';
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <div>
         <Header />        
         <Image />
-        {/* <Test /> */}
+        {/* <ModalExampleControlled /> */}
       </div>
     );
   }
