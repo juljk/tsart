@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
-import Image from './Component/Image';
+import Images from './Component/Images';
 import Header from './Component/Header';
 
-// import ModalExampleControlled from './Component/Test';
+// import Test from './Component/Test';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header />        
-        <Image />
-        {/* <ModalExampleControlled /> */}
+        <Images />
+
+        {/* <Test /> */}
+
       </div>
     );
   }
