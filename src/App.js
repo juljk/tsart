@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
-import Images from './Component/Images';
-import Header from './Component/Header';
 
-// import Test from './Component/Test';
+import Routing from './Component/Routing';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header />        
-        <Images />
+      <Router>
+        <div>
 
-        {/* <Test /> */}
+          <Routing />
 
-      </div>
+        </div>
+      </Router>
     );
   }
 }

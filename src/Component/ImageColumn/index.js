@@ -3,9 +3,6 @@ import './index.css';
 import Image from '../Image';
 
 class ImageColumn extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {        
         const { dataurl } = this.props;
         return (
