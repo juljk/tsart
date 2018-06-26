@@ -1,0 +1,74 @@
+* {
+    /*   border: 1px solid orange; */
+    box-sizing: border-box;
+}
+
+.about {
+    width: 80%;    
+    margin: 0 auto;
+    max-width: 1020px;
+    /* position: relative;     */
+}
+.about::after {
+    content: "";
+    clear: both;
+    display: table;  
+}
+
+.Photo, .Text {
+    width: 49%;   
+    padding: 0 15px;
+}
+
+.Photo {
+    float: left;     
+}
+
+.Text {
+    float: right;    
+    text-align: justify;
+}
+
+.Photo img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    /* max-height: 300px; */
+}
+
+.born, .Text {
+    font-family: "Didact Gothic";
+    /* font-size: 18px; */
+    font-size: 18px;
+    /* letter-spacing: 0px; */
+    line-height: 24px;
+}
+
+.born {
+    color: rgb(225, 222, 218);
+}
+
+.Text {
+    color: rgb(255, 255, 255);
+}
+
+.link {
+    color: rgb(187,187,187);
+}
+
+@media (max-width: 600px) {
+    .about {
+        width: 100%;
+    }
+    
+    .Photo, .Text {
+        float: none;
+        width: 100%;
+        padding: 0 5px;    
+    }
+    
+    .born {
+        text-align: center;    
+    }
+    
+}

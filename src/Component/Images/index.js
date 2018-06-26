@@ -7,7 +7,7 @@ import _ from 'underscore';
 import url from '../../Url/index';
 const dataUrl = _.chunk(url, url.length / 4);
 
-class Images extends Component {
+class Images extends Component {  
     render() {                
       return (
         <div className="row"> 
