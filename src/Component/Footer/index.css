@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+
+footer {
+  background: rgba(59, 69, 87, 0.6);
+  width: 100%;   
+  margin: 0 auto;  
+  height: 70px;  
+  display: flex;
+}
+
+.social, .text {      
+  margin: auto;    
+}
+
+.text {  
+  width: 74%;   
+  text-align: left;
+  padding-left: 30px; 
+  color: rgb(121, 190, 189);
+}
+
+.social {  
+  width: 25%; 
+  text-align: right;
+  padding-right: 30px;  
+}
+
+.social .icon {  
+  display: inline-block;
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+  
+  background-size: contain;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.instagram { background-image: url(https://image.ibb.co/cdXLUy/instagram_M.png); }
+.instagram:hover { background-image: url(https://image.ibb.co/edfUNJ/instagram_O.png); }
+
+.facebook { background: url(https://image.ibb.co/fUAJGd/facebook_M.png); }
+.facebook:hover { background-image: url(https://image.ibb.co/cSSXbd/facebook_O.png); }
+
+.etsy { background: url(https://image.ibb.co/kP079y/etsyM.png); }
+.etsy:hover { background-image: url(https://image.ibb.co/hEVkwd/etsyO.png); }
+
+@media screen and (max-width: 600px) {
+    .social, .text {      
+        width: 100%;        
+        
+    }
+}

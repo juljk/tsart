@@ -9,15 +9,11 @@ class Header extends Component {
                 <div className="name">Tania Semaniuk</div>
                 <div className="gallery">GALLERY</div>
                 <div className="navigation">                    
-                    <Link to="/">Portfolio</Link>
+                    <Link to="#">Portfolio</Link>
                     <Link to="/instock">In stock</Link>
                     <Link to="/about">About</Link>
                     <Link to="/contact">Contact</Link>          
-                </div>                           
-            
-                {/* <div className="imageHeader">
-                    <div className="contentImageHeader"></div>
-                </div> */}
+                </div>
             </div>
         )        
     };

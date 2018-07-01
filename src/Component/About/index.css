@@ -1,12 +1,11 @@
-* {
-    /*   border: 1px solid orange; */
+* {    
     box-sizing: border-box;
 }
 
 .about {
     width: 80%;    
     margin: 0 auto;
-    max-width: 1020px;
+    max-width: 1030px;
     /* position: relative;     */
 }
 .about::after {
@@ -54,6 +53,10 @@
 
 .link {
     color: rgb(187,187,187);
+}
+
+.link:hover {
+    color: rgb(121, 190, 189);
 }
 
 @media (max-width: 600px) {

@@ -4,7 +4,7 @@
 }
 
 .header {
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-bottom: 22px;
     /* margin-bottom: 45px; */
 }
@@ -28,9 +28,7 @@
     color: rgb(187,187,187);  
 }
 
-/* /////
-// Силки
-///// */
+/* LINKS */
 .navigation {
     padding-top: 16px;
     margin: 0 auto;
@@ -43,7 +41,7 @@
     display: table;  
 }
 
-.navigation a {  
+.navigation .MenuLink {  
     float: left;  
     color: rgb(187,187,187);
     text-align: center;
@@ -54,33 +52,43 @@
     border-top: 1px solid rgb(187,187,187);      
 }
 
-.navigation a:hover {
-    border-top: 1px solid white;    
+.navigation .MenuLink:hover {
+    border-top: 1px solid white;
     color: white;
 }
 
+/* DROPDOWN */
+.dropdown:hover .dropdown-content{
+    visibility: visible;    
+    opacity: 1;
+}
+
+.dropdown:hover .portfolio {
+    border-top: 1px solid white !important;
+    background: rgba(59, 69, 87, 0.6);
+}
 
 @media screen and (max-width: 600px) {
     .header {
         margin-bottom: 30px;
     }
 
-    .navigation a {
+    .navigation .MenuLink {
         float: none;
         display: block;
         text-align: center;
         width: auto;        
     }
 
-    .navigation a:hover + a {
+    .navigation .MenuLink:hover + .MenuLink {
         border-top: 1px solid white;        
     }
 
-    .navigation a:hover:last-child {        
+    .navigation .MenuLink:hover:last-child {        
         border-bottom: 1px solid white;
     }
 
-    .navigation a:last-child {
+    .navigation .lastLink {
         border-bottom: 1px solid rgb(187,187,187);
     }
 
@@ -88,4 +96,11 @@
         float: none;
         max-width: 100%;
     }
+
+    .dropdown {
+        background: rgba(59, 69, 87, 0.9);        
+    }
+
+    
 }
+

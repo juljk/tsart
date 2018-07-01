@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
     "cloudinary": "^1.11.0",
     "lodash": "^4.17.10",
     "mongoose": "^5.1.5",
+    "nodemailer": "^4.6.7",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-responsive": "^4.1.0",

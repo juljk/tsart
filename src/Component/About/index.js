@@ -8,17 +8,15 @@ class About extends Component {
             <div className="about">
                 <div className="Photo">
                 
-                    <img src="https://image.ibb.co/fHOD5T/ava.jpg
-                    https://image.ibb.co/cZt2zo/ava_Origin.jpg" alt="pic" />
+                    <img src="https://image.ibb.co/fHOD5T/ava.jpg" alt="pic" />
                 
                     
                     <div className="born">
                     <br />
-                    Tetiana Semaniuk<br />
-                    January 1997<br />
-                    Ternopil, Ukraine<br /><br />
+                    Tetiana Semaniuk<br />                    
+                    Ukraine<br /><br />
                     </div>
-                </div>
+                    </div>
                 
                 <div className="Text">
                 Hello! My name is Tania, and I'm a self-taught painter.<br /><br />
