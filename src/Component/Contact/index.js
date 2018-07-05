@@ -16,7 +16,7 @@ class Contact extends Component {
                   <textarea id="subject" name="Message" placeholder="Message..."></textarea>
                   
                   <input type="hidden" name="_cc" value="julikjulik22@gmail.com" />
-                  <input type="hidden" name="_next" value="http:// tsart.herokuapp.com/" />
+                  <input type="hidden" name="_next" value="http://tsart.herokuapp.com/" />
                   <input type="submit" value="Send" />
               </form>
             </div>
