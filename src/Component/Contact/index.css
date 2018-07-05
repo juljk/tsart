@@ -1,7 +1,6 @@
 .containerForm {
   max-width: 300px;
-  margin: auto;
-  margin-bottom: 60px;
+  margin: 0 auto 60px auto;
 }
 
 input[type=text], input[type=email], input[type=number], select, textarea {

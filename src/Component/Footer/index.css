@@ -5,11 +5,11 @@ footer {
   width: 100%;   
   margin: 0 auto;  
   height: 70px;  
-  display: flex;
+  display: flex;  
 }
 
 .social, .text {      
-  margin: auto;    
+  margin: auto;  
 }
 
 .text {  

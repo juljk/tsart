@@ -7,7 +7,7 @@ class Contact extends Component {
           <div>
             <div className="textForm">Please feel free to email us with your inquiry. We will respond as soon as possible.</div>
             <div className="containerForm">
-              <form autoComplete="off" action="https://formspree.io/julikjulik22@gmail.com"
+              <form autoComplete="off" action="https://formspree.io/tsartmailing@gmail.com"
                     method="POST">
 
                   <input type="text" id="name" name="Name" placeholder="Name" />
@@ -15,7 +15,8 @@ class Contact extends Component {
                   <input type="number" id="phone" name="Phone" placeholder="Phone" />
                   <textarea id="subject" name="Message" placeholder="Message..."></textarea>
                   
-                  <input type="hidden" name="_next" value="http://localhost:3000/contact" />
+                  <input type="hidden" name="_cc" value="julikjulik22@gmail.com" />
+                  <input type="hidden" name="_next" value="http:// tsart.herokuapp.com/" />
                   <input type="submit" value="Send" />
               </form>
             </div>

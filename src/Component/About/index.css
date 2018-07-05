@@ -4,9 +4,9 @@
 
 .about {
     width: 80%;    
-    margin: 0 auto;
+    margin: 0 auto 60px auto;
     max-width: 1030px;
-    /* position: relative;     */
+    
 }
 .about::after {
     content: "";

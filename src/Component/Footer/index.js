@@ -3,7 +3,7 @@ import './index.css';
 
 class Footer extends Component {
     render() {
-        return (            
+        return (               
             <footer>
                 <div class="text">Copyright © 2018 Tetiana  Semaniuk. All Rights Reserved.</div>
                 <div class="social">       
@@ -11,7 +11,7 @@ class Footer extends Component {
                     <div class="icon facebook"></div>
                     <div class="icon etsy"></div>    
                 </div>
-            </footer>
+            </footer>                      
         )        
     };
 };
