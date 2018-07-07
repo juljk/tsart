@@ -12,7 +12,7 @@
 }
 
 .name {  
-    background-image: url(https://image.ibb.co/cbA8CT/logos.png);
+    background-image: url(https://image.ibb.co/mXoKmo/log.png);
     position: relative;
     height: 80px;
     width: 280px;
@@ -27,12 +27,11 @@
 
 .gallery {  
     position: absolute;
-    bottom: 5px;
-    right: 6px;
+    bottom: 6px;
+    right: 3px;
     font-size: 17px;    
-    letter-spacing: 0px;
     color: rgb(187,187,187);
-    font-family: "Didact Gothic"; 
+    font-family: "Didact Gothic";
 }
 
 /* LINKS */
