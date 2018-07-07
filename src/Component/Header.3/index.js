@@ -7,10 +7,8 @@ class Header extends Component {
     render() {
         return (            
             <div className="header">
-                <div className="name">
-                    <div className="gallery">GALLERY</div>
-                </div>
-                
+                <div className="name">Tania Semaniuk</div>
+                <div className="gallery">GALLERY</div>
                 <div className="navigation"> 
 
                     <div className="dropdown">
