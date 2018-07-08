@@ -7,9 +7,9 @@ class Footer extends Component {
             <footer>
                 <div class="text">Copyright © 2018 Tetiana  Semaniuk. All Rights Reserved.</div>
                 <div class="social">       
-                    <div class="icon instagram"></div>
-                    <div class="icon facebook"></div>
-                    <div class="icon etsy"></div>    
+                    <a href="https://www.instagram.com/tania_sem_" target="_blank"><div class="icon instagram"></div></a>
+                    <a href="https://www.facebook.com/tsemaniukart" target="_blank"><div class="icon facebook"></div></a>
+                    <a href="https://www.etsy.com/shop/TSemaniukArtSpace" target="_blank"><div class="icon etsy"></div></a>   
                 </div>
             </footer>                      
         )        
