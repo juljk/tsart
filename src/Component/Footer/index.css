@@ -22,7 +22,8 @@ footer {
 .social {  
   width: 25%; 
   text-align: right;
-  padding-right: 20px;  
+  padding: 0 20px 0 0;
+  /* padding-right: 20px;   */
 }
 
 .social .icon {  
@@ -30,12 +31,12 @@ footer {
   border-radius: 5px;
   width: 32px;
   height: 32px;
-  margin: 0 5px;
+  margin: 0 5px;  
   
   background-size: contain;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;  
 }
 
 .instagram { background-image: url(https://image.ibb.co/cdXLUy/instagram_M.png); }
@@ -48,15 +49,15 @@ footer {
 .etsy:hover { background-image: url(https://image.ibb.co/hEVkwd/etsyO.png); }
 
 @media screen and (max-width: 600px) {
-    .social, .text {      
-        width: 100%;   
-    }
+  /* footer {
+    height: 80px;
+  }   */
+  
+  .social, .text {      
+    width: 100%;         
+  }
 
-    .social {
-      padding-right: 25px;
-    }
-
-    .text {
-      padding-left: 30px;
-    }
+  .text {
+    font-size: 10px;
+  }
 }

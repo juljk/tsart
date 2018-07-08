@@ -15,9 +15,7 @@
     margin: 35px auto;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; 
-
-    /* border: 1px solid orange; */
+    background-size: contain;
 }
 
 .gallery {  
@@ -101,9 +99,6 @@
         background: rgba(59, 69, 87, 0.9) !important;
     }    
 
-    *:active .dropdown-content {
-        visibility: hidden !important;    
-        opacity: 0 !important;       
-    }
+    
 }
 
