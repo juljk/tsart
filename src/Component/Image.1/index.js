@@ -38,9 +38,6 @@ class Image extends Component {
         return (
             <div>
                 <img className="picture" src={src} alt={alt} onClick={this.handleShow} data-param={src}/>
-                <div className="middle">
-                    <div className="text">Bibi</div>
-                </div>
                 {modal}
             </div>        
       );
