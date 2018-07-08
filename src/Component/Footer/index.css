@@ -15,14 +15,14 @@ footer {
 .text {  
   width: 74%;   
   text-align: left;
-  padding-left: 30px; 
+  padding-left: 25px; 
   color: rgb(121, 190, 189);
 }
 
 .social {  
   width: 25%; 
   text-align: right;
-  padding-right: 30px;  
+  padding-right: 20px;  
 }
 
 .social .icon {  
@@ -49,7 +49,14 @@ footer {
 
 @media screen and (max-width: 600px) {
     .social, .text {      
-        width: 100%;        
-        
+        width: 100%;   
+    }
+
+    .social {
+      padding-right: 25px;
+    }
+
+    .text {
+      padding-left: 30px;
     }
 }
