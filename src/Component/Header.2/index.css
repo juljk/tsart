@@ -6,13 +6,9 @@
 .header {    
     margin-bottom: 22px;    
 }
-  
-.name, .gallery {
-    text-align: center;    
-}
 
 .name {  
-    background-image: url(https://image.ibb.co/mXoKmo/log.png);
+    background-image: url(https://image.ibb.co/heCmj8/logo3.png);
     position: relative;
     height: 80px;
     width: 280px;
@@ -20,15 +16,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain; 
-    /* box-shadow: 2.5px 4.33px 5px rgba(0,0,0,0.49); */
-
-    /* border: 1px solid orange; */
 }
 
 .gallery {  
     position: absolute;
     bottom: 6px;
-    right: 3px;
+    right: 4px;
     font-size: 17px;    
     color: rgb(187,187,187);
     font-family: "Didact Gothic";
@@ -105,5 +98,10 @@
     .dropdown:hover {
         background: rgba(59, 69, 87, 0.9) !important;
     }    
+
+    *:active .dropdown-content {
+        visibility: hidden !important;    
+        opacity: 0 !important;       
+    }
 }
 
