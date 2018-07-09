@@ -36,10 +36,11 @@ class Image extends Component {
             : null;
 
         return (
-            <div>
+            <div className="conPic">
                 <img className="picture" src={src} alt={alt} onClick={this.handleShow} data-param={src}/>
                 <div className="middle">
-                    <div className="text">Bibi</div>
+                    <div className="textPic">50X50</div>
+                    <div className="textPic">2018</div>
                 </div>
                 {modal}
             </div>        
