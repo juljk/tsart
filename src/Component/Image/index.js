@@ -14,10 +14,9 @@ class Image extends Component {
         this.handleHide = this.handleHide.bind(this);
     }
     
-    handleShow(e) {
+    handleShow(e) {       
         const { param } = e.target.dataset;
-        this.setState({showModal: true, url: param});
-        console.log(param);
+        this.setState({showModal: true, url: param});       
     }
       
     handleHide() {
@@ -36,14 +35,16 @@ class Image extends Component {
             : null;
 
         return (
-            <div className="conPic">
-                <img className="picture" src={src} alt={alt} onClick={this.handleShow} data-param={src}/>
-                <div className="middle">
-                    <div className="textPic">50X50</div>
-                    <div className="textPic">2018</div>
-                </div>
-                {modal}
-            </div>        
+            <div>
+                <div className="conPic">               
+                    <img className="picture" src={src} alt={alt} data-param={src} onClick={this.handleShow} />
+                    <div className="middle">
+                        <div className="textPic">50X50</div>
+                        <div className="textPic">2018</div>
+                    </div>                
+                </div>  
+            {modal}
+            </div>      
       );
     }
   }

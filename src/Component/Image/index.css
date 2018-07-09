@@ -10,23 +10,19 @@
     transition: transform ease-in-out 300ms;
 }
 
-.conPic:hover .picture {
-    cursor: pointer; 
+.conPic:hover .picture {   
+    cursor: pointer;  
     transform: scale(1.08);
     transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;  
 }
 
-/* .picture:hover {
-    
-} */
-
 .middle {
     position: absolute;    
     opacity: 0;
-    background: rgba(59, 69, 87, 0.6);
+    background: rgba(59, 69, 87, 0.7);
     width: 100%;
-    bottom: 0;
-    padding: 5px;
+    bottom: -2px;
+    padding: 5px 0;
 }
 
 .conPic:hover .middle {
@@ -35,5 +31,11 @@
 
 .textPic {
     text-align: center;
-    color: white;    
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .conPic .middle {
+        opacity: inherit;
+    }
 }
